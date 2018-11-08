@@ -3,7 +3,7 @@ var name = "Susan";
 var height = 74;
 var message = (` is ${height} inches tall`);
 
-console.log(message);
+console.log(name + message);
 
 
 module.exports = {name, height, message}
